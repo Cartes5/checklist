@@ -5,16 +5,18 @@ Este es un proyecto que consiste en una aplicación web de checklist con un fron
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
-https://github.com/Cartes5/testtask-GalvezGil.git
+git clone https://github.com/Cartes5/checklist.git
 
 ### Frontend (Vue.js)
 
 1. Ve al directorio del frontend:
-cd checklist/checklist-frontend
+cd checklist-frontend
 
 2. Instala las dependencias:
 
 npm install
+
+npm install axios
 
 3. Inicia el servidor de desarrollo:
 
@@ -24,12 +26,15 @@ npm run serve
 
 1. Ve al directorio del backend:
 
-cd checklist/checklist-backend
+cd checklist-backend
+
 2. Instala las dependencias:
 
 composer install
 
-3. Abrir el archivo .env
+3. crea en la raiz del checklist-backend el archivo .env
+
+Copia lo que hay en el archivo .env.example y pégao en el.env
 
 Configura tu base de datos en el archivo .env:
 
